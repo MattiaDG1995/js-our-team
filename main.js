@@ -39,11 +39,13 @@ const team = [
     console.log(elementoTeam.name)
 
     document.getElementById('card').innerHTML += `
-    <div class="card" style="width: 18rem;">
+    <div class="col-4 p-5">
+    <div class="card">
         <img src= "${percorso + elementoTeam.image}" class="card-img-top" alt="...">
     <div class="card-body">
         <h5 class="card-title">${elementoTeam.name}</h5>
         <p class="card-text">${elementoTeam.role}</p>
+    </div>
     </div>
     </div>`
   }

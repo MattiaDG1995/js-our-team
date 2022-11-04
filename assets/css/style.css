@@ -4,3 +4,22 @@
     box-sizing: border-box;
 }
 
+body{
+    color: rgba(103, 97, 90, 1);
+    background-color: whitesmoke;
+}
+
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container2{
+    text-align: center;
+    width: 50%;
+    margin-inline: auto;
+}
+
+
